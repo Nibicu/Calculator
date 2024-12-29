@@ -9,7 +9,7 @@
             {
                 double number1, number2;
                 bool isNumber = false;
-                string operand;
+                
 
 
 
@@ -31,6 +31,7 @@
                     continue;
                 }
 
+                Console.WriteLine("Введите оператор (+, -, *, /, %, ^)");
                 string operant = Console.ReadLine();
                 double result = operant switch
                 {
@@ -42,6 +43,8 @@
                     "sqrt" => Math.Sqrt(number1), 
                     _ => throw new NotImplementedException($"\nОперации {operant} не существует!"),
                 };
+                Console.WriteLine($"{number1} {operant} {number2} = {result}\n");
+
                 Console.WriteLine("\nНажмите 'Y' если хотите попробывать еще!");
                 string input = Console.ReadLine();
                 if (input == "Y")
