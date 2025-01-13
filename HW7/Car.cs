@@ -8,11 +8,12 @@ namespace HW7
 {
     public class Car : CarBase
     {
-        public override string Diller { get; } = "Ford";
-        public override string Model { get; } = "Focus";
-        public override string Color { get; } = "Red";
-        public override decimal Price { get; } = 25000.00m;
+        public override string Diller { get; set; } = "Ford";
+        public override string Model { get; set; } = "Focus";
+        public override string Color { get; set; } = "Red";
+        public override decimal Price { get; set; } = 25000.00m;
 
+        
         public Car(string diller, string model, string color, decimal price)
         {
             Diller = diller;
@@ -21,9 +22,6 @@ namespace HW7
             Price = price;
         }
 
-        public Car()
-        {
-
-        }
+        
     }
 }

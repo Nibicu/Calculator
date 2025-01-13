@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            Car car1 = new Car();
+            Car car1 = new Car("Ford", "Focus", "Red", 25000.00m);
 
             Console.WriteLine($"Производитель: {car1.Diller}");
             Console.WriteLine($"Модель: {car1.Model}");
