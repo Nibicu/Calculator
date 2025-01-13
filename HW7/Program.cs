@@ -6,10 +6,8 @@
         {
             Car car1 = new Car("Ford", "Focus", "Red", 25000.00m);
 
-            Console.WriteLine($"Производитель: {car1.Diller}");
-            Console.WriteLine($"Модель: {car1.Model}");
-            Console.WriteLine($"Цвет: {car1.Color}");
-            Console.WriteLine($"Цена: {car1.Price}");
+            Console.WriteLine($"Производитель: {car1.Diller}\nМодель: {car1.Model}\nЦвет: {car1.Color}\nЦена: {car1.Price}");                    
+            
 
             car1.AutoStart();
             car1.Geolocation();
