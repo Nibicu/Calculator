@@ -9,10 +9,10 @@
             Console.WriteLine($"Производитель: {car1.Diller}\nМодель: {car1.Model}\nЦвет: {car1.Color}\nЦена: {car1.Price}");                    
             
 
-            car1.AutoStart();
-            car1.Geolocation();
-            car1.CruiseСontrol();
-            car1.TurnOnTheDisco();
+            car1.AutoStart();          
+            car1.Geolocation();  
+            car1.CruiseСontrol();   
+            car1.TurnOnTheDisco(); 
 
         }
     }
