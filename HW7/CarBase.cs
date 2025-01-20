@@ -12,24 +12,16 @@ namespace HW7
         public abstract string Model { get; set; }
         public abstract string Color { get; set; }
         public abstract decimal Price { get; set; }
-        public void AutoStart()
-        {
-            Console.WriteLine("Автомобиль запущен автоматически.");
-        }
+        public abstract void AutoStart();
 
-        public void Geolocation()
-        {
-            Console.WriteLine("Геолокация: текущие координаты автомобиля.");
-        }
 
-        public void CruiseСontrol()
-        {
-            Console.WriteLine("Круиз-контроль активирован.");
-        }
+        public abstract void Geolocation();
 
-        public void TurnOnTheDisco()
-        {
-            Console.WriteLine("Дискотека включена! Музыка играет.");
-        }
+
+        public abstract void CruiseСontrol();
+
+
+        public abstract void TurnOnTheDisco();
+        
     }
 }
