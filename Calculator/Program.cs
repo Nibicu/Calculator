@@ -86,14 +86,14 @@
 
                 Console.WriteLine("\nНажмите 'Y' если хотите попробывать еще!");
                 string input = Console.ReadLine();
-                if (input == "Y")                
-                   continue;                
-                else 
+                if (input == "Y")
+                    continue;
+                else
                     Console.WriteLine("\nНажмите любую клавишу для выхода.");
-                    Console.ReadLine();
-                    break;
+                Console.ReadLine();
+                break;
             }
         }
-        
+
     }
 }
